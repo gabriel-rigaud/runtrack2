@@ -29,6 +29,3 @@
             </thead>
         </tr>
     </table>
-
-
-<!--array("boolean", "entier", "chaîne de caractères", "nombre à virgule flottante");-->
