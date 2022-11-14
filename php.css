@@ -1,0 +1,14 @@
+body{
+    background-color: #555555;
+    color: white;
+}
+
+.tableau{
+    text-align: center;
+    border-spacing: 10rem 2px;
+    color: red;
+}
+
+.colone{
+    color: white;
+}
