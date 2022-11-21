@@ -8,11 +8,11 @@
     <?php
     if ($_POST){
         if ($_POST["style"] == "style1"){
-            echo '<link rel="stylesheet" type="text/css" href="/css/style1.css">';}
+            echo '<link rel="stylesheet" type="text/css" href="style1.css">';}
         else if ($_POST["style"] == "style2"){
-            echo '<link rel="stylesheet" type="text/css" href="/css/style2.css">';}
+            echo '<link rel="stylesheet" type="text/css" href="style2.css">';}
         else{
-            echo '<link rel="stylesheet" type="text/css" href="/css/style3.css">';
+            echo '<link rel="stylesheet" type="text/css" href="style3.css">';
         }
     }
     ?>
