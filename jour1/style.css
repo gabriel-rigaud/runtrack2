@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+
+table td {
+    font-size:12px;
+    text-align: center;
+    color: red;
+    border-width: 2px;
+    padding: 8px;
+    border-style: solid;
+    border-color: blue;
+}
