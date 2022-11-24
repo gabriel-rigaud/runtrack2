@@ -25,7 +25,6 @@
 <label for="sujet">Choisissez votre thèmes</label>
     <select name="style">
         <option value="style1">Thèmes 1</option>
-        <!-- Ternaire dans une ternaire pour éviter l'erreur au démarrage du serveur sans valeur selectionnée -->
         <option value="style2" <?php echo (isset($_POST)) ? (($_POST["style"] == "style2") ? "selected" : NULL) : NULL;?>>Thèmes 2</option>
         <option value="style3" <?php echo (isset($_POST)) ? (($_POST["style"] == "style3") ? "selected" : NULL) : NULL;?>>Thèmes 3</option>
     </select>
